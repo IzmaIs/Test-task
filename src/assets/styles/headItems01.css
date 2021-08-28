@@ -1,0 +1,163 @@
+body {
+  display: flex;
+  margin: 0;
+  background: #FFFFFF;
+}
+
+header {
+  width: 100%;
+}
+
+a.Logo {
+  display: inline;
+  margin-top: 1%;
+  margin-left: 3.8%;
+  margin-bottom: 1.3%;
+}
+
+a.Head4 {
+  display: inline;
+  margin-top: 10px;
+  padding-left: 78px;
+}
+
+.top-Head {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.top-Head i {
+  display: none;
+}
+
+.bot-Head {
+  background-color: #497952;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav1 {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0 13%;
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+}
+
+.nav1__item {
+  align-items: center;
+  display: flex;
+  padding-top: 1.3%;
+  padding-left: 9.8%;
+}
+
+.nav1 .nav1__item p {
+  margin: 0 0 0 17px;
+  display: block;
+}
+
+.nav {
+  list-style: none;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  font-size: 14px;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.nav__link {
+  color: #FAFFFA;
+  text-decoration: none;
+  display: inline;
+}
+
+.nav__item {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav1 {
+    margin: 0 auto;
+  }
+
+  .nav {
+    margin: 0;
+  }
+}
+@media (max-width: 1420px) {
+  .nav1 {
+    margin: 0 3%;
+  }
+}
+@media (max-width: 1060px) {
+  .bot-Head {
+    display: none;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .top-Head {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .top-Head i {
+    color: #497952;
+    border-width: 0;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 70px;
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+
+  .menushad {
+    list-style: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 0;
+    color: #497952;
+  }
+
+  .menushad a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #497952;
+  }
+
+  .menushad li:hover {
+    background-color: #497952;
+  }
+
+  .menushad a:hover {
+    color: #FFFFFF;
+  }
+}
+
+/*# sourceMappingURL=headItems01.css.map */

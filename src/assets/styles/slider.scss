@@ -1,0 +1,43 @@
+.slider{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+button{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 185px;
+  background: #FFFFFF;
+  border: 1px solid #497952;
+  box-sizing: border-box;
+  border-radius: 180px;
+}
+
+button:active, button:hover{
+  outline: none;
+  cursor: pointer;
+}
+.next{
+  right: 0;
+  margin-right: 2%;
+}
+.prev{
+  left: 0;
+  margin-left: 2%;
+}
+i {
+  border: 1px solid #497952;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
