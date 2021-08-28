@@ -1,7 +1,7 @@
 .gallery{
   width: calc(100% - 30px);
   height: 400px;
-  margin: 2% auto 3.5%;
+  margin: 3% auto 3.5%;
 }
 .slide {
   background-repeat: no-repeat;
@@ -14,4 +14,9 @@
 @media screen and (min-width: 1200px){
   .gallery{
   width: 1110px;}
+}
+@media (max-width: 1060px){
+  .gallery{
+    margin: 5em auto 3.5%;
+  }
 }
